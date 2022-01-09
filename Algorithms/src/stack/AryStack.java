@@ -44,7 +44,7 @@ public class AryStack<E> {
 	
 	public void print() {
 		if (isEmpty())
-			System.out.print("리스트가 비었습니다.");
+			System.out.print("배열이 비었습니다.");
 		else
 			for (int i = 0; i < size(); i++)
 				System.out.print(s[i] + "\t ");

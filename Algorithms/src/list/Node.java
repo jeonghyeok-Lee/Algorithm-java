@@ -8,7 +8,7 @@ public class Node<E> {
 	private Node<?> previous;		// 현재 노드 앞에 있는 노드를 가리키는 노드타입형 변수
 	
 	// SinglyList 클래스에서 사용하는 노드용 생성자
-	public Node(E item, Node head) {
+	public Node(E item, Node<?> head) {
 		this.item = item;
 		next = head;
 	}
