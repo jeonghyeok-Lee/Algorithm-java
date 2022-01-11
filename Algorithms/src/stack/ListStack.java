@@ -38,7 +38,7 @@ public class ListStack<E> {
 	
 	public void print() { 
 		if (isEmpty())
-			System.out.print("리스트가 비었습니다.");
+			System.out.print("스택이 비었습니다.");
 		else
 			for (Node p = top; p != null; p = p.getNext())
 				System.out.print(p.getItem() + "\t ");

@@ -46,7 +46,7 @@ public class AryQueue<E> {
 	
 	public void print() {
 		if (isEmpty())
-			System.out.print("배열이 비었습니다.");
+			System.out.print("큐가 비었습니다.");
 		else {
 			for (int i = 0; i < q.length; i++)
 				System.out.print(q[i] + "\t ");
